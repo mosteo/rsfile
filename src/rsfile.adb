@@ -29,9 +29,9 @@ procedure Rsfile is
 
    Candidates : Size_File.Map;
 
------------------
--- Print_Usage --
------------------
+   -----------------
+   -- Print_Usage --
+   -----------------
 
    procedure Print_Usage is
       use Ada.Command_Line;
@@ -40,9 +40,9 @@ procedure Rsfile is
       Put_Line ("Usage: " & Ada.Directories.Simple_Name (Command_Name) & " <path>");
    end Print_Usage;
 
-----------------------
--- Check_Parameters --
-----------------------
+   ----------------------
+   -- Check_Parameters --
+   ----------------------
 
    function Check_Parameters return Boolean is
      use Ada.Command_Line;
@@ -56,9 +56,9 @@ procedure Rsfile is
       end if;
    end Check_Parameters;
 
--------------------
--- Populate_Tree --
--------------------
+   -------------------
+   -- Populate_Tree --
+   -------------------
 
    procedure Populate_Tree is
       use Ada.Directories;
@@ -108,9 +108,9 @@ procedure Rsfile is
       Enumerate_Folder (Root);
    end Populate_Tree;
 
----------------
--- Pick_File --
----------------
+   ---------------
+   -- Pick_File --
+   ---------------
 
    procedure Pick_File is
       use Ada.Directories;
