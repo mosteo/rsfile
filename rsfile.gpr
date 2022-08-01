@@ -17,7 +17,9 @@ project Rsfile is
    end Binder;
 
    package Linker is
-      for Default_Switches ("ada") use ("-Wl,--gc-sections");
+      -- for Default_Switches ("ada") use ("-Wl,--gc-sections");
+      -- This causes problems in macOS. Theres a `-dead-strip`. See:
+      -- https://github.com/mosteo/rsfile/issues/2
    end Linker;
 
    package Pretty_Printer is

@@ -1,0 +1,13 @@
+name = "rsfile"
+description = "Randomly pick a file with probability proportional to its size"
+version = "1.0"
+tags = ["command-line", "tool", "random", "file-size"]
+
+authors = ["Alejandro R. Mosteo"]
+maintainers = ["Alejandro R. Mosteo <alejandro@mosteo.com>"]
+maintainers-logins = ["mosteo"]
+
+executables = ["rsfile"]
+
+[configuration]
+disabled = true
