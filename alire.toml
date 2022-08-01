@@ -1,7 +1,8 @@
 name = "rsfile"
 description = "Randomly pick a file with probability proportional to its size"
-version = "1.0"
+version = "1.0.1"
 tags = ["command-line", "tool", "random", "file-size"]
+licenses = "GPL-3.0-only"
 
 authors = ["Alejandro R. Mosteo"]
 maintainers = ["Alejandro R. Mosteo <alejandro@mosteo.com>"]
